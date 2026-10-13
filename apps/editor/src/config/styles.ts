@@ -1,5 +1,4 @@
-import type { ConfigStyleCollection } from '@/types';
-import { Style } from '@dicebear/core';
+import type { Style } from '@acowale/core';
 import getSchemaOptions from '@/utils/getSchemaOptions';
 
 import adventurerDef from '@dicebear/styles/adventurer.json';
@@ -60,35 +59,3 @@ const availableStyles: ConfigStyleCollection = {
   bigSmile: createStyle(bigSmileDef),
   bottts: createStyle(botttsDef),
   botttsNeutral: createStyle(botttsNeutralDef),
-  cameo: createStyle(cameoDef),
-  clay: createStyle(clayDef),
-  critters: createStyle(crittersDef),
-  croodles: createStyle(croodlesDef),
-  croodlesNeutral: createStyle(croodlesNeutralDef),
-  cutouts: createStyle(cutoutsDef),
-  dylan: createStyle(dylanDef),
-  funEmoji: createStyle(funEmojiDef),
-  gaze: createStyle(gazeDef),
-  lineFace: createStyle(lineFaceDef),
-  lorelei: createStyle(loreleiDef),
-  loreleiNeutral: createStyle(loreleiNeutralDef),
-  marbles: createStyle(marblesDef),
-  micah: createStyle(micahDef),
-  miniavs: createStyle(mininavsDef),
-  moods: createStyle(moodsDef),
-  notionists: createStyle(notionistsDef),
-  notionistsNeutral: createStyle(notionistsNeutralDef),
-  openPeeps: createStyle(openPeepsDef),
-  personas: createStyle(personasDef),
-  pixelArt: createStyle(pixelArtDef),
-  pixelArtNeutral: createStyle(pixelArtNeutralDef),
-  pixelbot: createStyle(pixelbotDef),
-  shadows: createStyle(shadowsDef),
-  sprouts: createStyle(sproutsDef),
-  thumbs: createStyle(thumbsDef),
-  toonHead: createStyle(toonHeadDef),
-  voxelArt: createStyle(voxelArtDef),
-  voxelBot: createStyle(voxelBotDef),
-};
-
-export default availableStyles;

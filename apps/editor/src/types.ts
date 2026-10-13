@@ -1,4 +1,4 @@
-import type { Style } from '@dicebear/core';
+import type { Style } from '@acowale/core';
 
 export type ConfigStyleOption = {
   hasProbability?: boolean;

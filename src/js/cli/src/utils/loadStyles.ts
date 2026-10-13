@@ -1,4 +1,4 @@
-import { Style } from '@dicebear/core';
+import { Style } from '@acowale/core';
 import { createRequire } from 'node:module';
 import * as path from 'node:path';
 import * as fs from 'node:fs';

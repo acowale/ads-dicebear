@@ -1,5 +1,5 @@
 {
-  "name": "@dicebear/core",
+  "name": "@acowale/core",
   "version": "10.7.0",
   "description": "Unique avatars from dozens of styles — deterministic, customizable, vector-based.",
   "keywords": [
@@ -11,15 +11,15 @@
   ],
   "homepage": "https://www.dicebear.com",
   "bugs": {
-    "url": "https://github.com/dicebear/dicebear/issues"
+    "url": "https://github.com/acowale/ads-dicebear/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dicebear/dicebear.git"
+    "url": "git+https://github.com/acowale/ads-dicebear.git"
   },
   "funding": "https://www.dicebear.com/support/",
   "license": "MIT",
-  "author": "Florian Körner <contact@florian-koerner.com>",
+  "author": "acowale",
   "type": "module",
   "main": "./lib/index.js",
   "exports": "./lib/index.js",
